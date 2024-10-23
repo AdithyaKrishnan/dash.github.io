@@ -16,8 +16,8 @@
 // Github API URL for the kata-container ci-nightly workflow's runs. This
 // will only get the most recent 10 runs ('page' is empty, and 'per_page=10').
 var ci_nightly_runs_url =  'https://api.github.com/repos/'
-                         + 'kata-containers/kata-containers/actions/workflows/'
-                         + 'ci-nightly.yaml/runs?per_page=10';
+                         + 'confidential-containers/operator/actions/workflows/'
+                         + 'ccruntime-nightly.yaml/runs?per_page=10';
 
 // The number of jobs to fetch from the github API on each paged request.
 var jobs_per_request = 100;

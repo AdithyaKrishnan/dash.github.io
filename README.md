@@ -1,2 +1,2 @@
 # dash.github.io
-GitHub Actions Dashboard for Kata Containers Repo
+GitHub Actions Dashboard for Confidential Containers Operator Repo
